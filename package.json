@@ -1,5 +1,8 @@
 {
-  "name": "scrach_git",
+  "name": "@mozudove/cli",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,6 +17,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RNm-dove/scrach_git/issues"
+  },
+  "bin": {
+    "cli": "bin/cli.js"
   },
   "homepage": "https://github.com/RNm-dove/scrach_git#readme"
 }
